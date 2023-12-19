@@ -1,0 +1,6 @@
+genrule(
+    name = "frontend",
+    srcs = [],
+    outs = ["frontend.txt"],
+    cmd = " sleep 5s && echo 'Hellow World Front-end!!' > $@",
+)

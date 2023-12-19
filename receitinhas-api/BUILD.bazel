@@ -1,0 +1,6 @@
+genrule(
+    name = "api",
+    srcs = [],
+    outs = ["api.txt"],
+    cmd = " sleep 5s && echo 'Hellow World Api!!' > $@",
+)

@@ -1,0 +1,6 @@
+genrule(
+    name = "base",
+    srcs = [],
+    outs = ["base.txt"],
+    cmd = " sleep 5s && echo 'Hellow World base!!' > $@",
+)
